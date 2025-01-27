@@ -41,22 +41,6 @@ This repository explores the implementation of adversarial attacks and defenses 
 
 3. Ensure the KITTI dataset is downloaded and stored in the data/ folder (excluded from the repository).
 
-### Usage
-1. Train the Model:
-
-		python train.py
-
-2. Generate Adversarial Examples:
-
-		python adversarial_attack.py
-
-3. Test on KITTI Dataset:
-
-		python test_model.py
-
-4. Deploy on JetRacer:
-	Coming soon! Integration steps will follow once the model is robust.
-
 ## Future Work  
 	• Enhancing adversarial defense mechanisms.
 	• Testing additional adversarial attack methods.
