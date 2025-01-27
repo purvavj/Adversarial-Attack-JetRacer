@@ -5,61 +5,58 @@ This repository explores the implementation of adversarial attacks and defenses 
 Overview
 
 This project involves:
-	•	Training a simple CNN model on the KITTI dataset.
-	•	Implementing and testing adversarial attack methods, including FGSM and PGD.
-	•	Developing defense mechanisms to improve model robustness.
-	•	Preparing for real-world testing by integrating the trained model with JetRacer hardware.
+	• Training a simple CNN model on the KITTI dataset.
+	• Implementing and testing adversarial attack methods, including FGSM and PGD.
+	• Developing defense mechanisms to improve model robustness.
+	• Preparing for real-world testing by integrating the trained model with JetRacer hardware.
 
 Objectives
-	1.	Adversarial Testing: Evaluate the impact of adversarial attacks on model accuracy using the KITTI dataset.
-	2.	Defense Mechanisms: Implement and test strategies like adversarial training to improve robustness.
-	3.	JetRacer Integration: Deploy the trained model on JetRacer to analyze real-time performance against adversarial perturbations.
+	1. Adversarial Testing: Evaluate the impact of adversarial attacks on model accuracy using the KITTI dataset.
+	2. Defense Mechanisms: Implement and test strategies like adversarial training to improve robustness.
+	3. JetRacer Integration: Deploy the trained model on JetRacer to analyze real-time performance against adversarial perturbations.
 
 Features
-	•	Attack Implementations: FGSM (Fast Gradient Sign Method) and PGD (Projected Gradient Descent) to generate adversarial examples.
-	•	Defense Techniques: Includes adversarial training and hyperparameter tuning.
-	•	Real-World Applicability: Transition from simulation to deployment on the JetRacer platform.
+	• Attack Implementations: FGSM (Fast Gradient Sign Method) and PGD (Projected Gradient Descent) to generate adversarial examples.
+	• Defense Techniques: Includes adversarial training and hyperparameter tuning.
+	• Real-World Applicability: Transition from simulation to deployment on the JetRacer platform.
 
-Getting Started
+#Getting Started#
 
 Prerequisites
-	•	Python 3.8+
-	•	NVIDIA Jetson Nano or JetRacer hardware (for deployment)
-	•	PyTorch, torchvision
-	•	Additional dependencies listed in requirements.txt
+	• Python 3.8+
+	• NVIDIA Jetson Nano or JetRacer hardware (for deployment)
+	• PyTorch, torchvision
+	• Additional dependencies listed in requirements.txt
 
 Installation
-	1.	Clone the repository:
+1. Clone the repository:
 
-git clone https://github.com/purvavj/Adversarial-Attack-JetRacer.git
-cd Adversarial-Attack-JetRacer
+		git clone https://github.com/purvavj/Adversarial-Attack-JetRacer.git
+		cd Adversarial-Attack-JetRacer
+
+2. Install dependencies:
+
+		pip install -r requirements.txt
 
 
-	2.	Install dependencies:
-
-pip install -r requirements.txt
-
-
-	3.	Ensure the KITTI dataset is downloaded and stored in the data/ folder (excluded from the repository).
+3. Ensure the KITTI dataset is downloaded and stored in the data/ folder (excluded from the repository).
 
 Usage
-	1.	Train the Model:
+1. Train the Model:
 
-python train.py
-
-
-	2.	Generate Adversarial Examples:
-
-python adversarial_attack.py
+		python train.py
 
 
-	3.	Test on KITTI Dataset:
+2. Generate Adversarial Examples:
 
-python test_model.py
+		python adversarial_attack.py
 
+3. Test on KITTI Dataset:
 
-	4.	Deploy on JetRacer:
-Coming soon! Integration steps will follow once the model is robust.
+		python test_model.py
+
+4. Deploy on JetRacer:
+	Coming soon! Integration steps will follow once the model is robust.
 
 Project Structure
 
@@ -75,6 +72,6 @@ Project Structure
 ├── README.md                 # This file
 
 Future Work
-	•	Enhancing adversarial defense mechanisms.
-	•	Testing additional adversarial attack methods.
-	•	Real-world validation using JetRacer hardware.
+	• Enhancing adversarial defense mechanisms.
+	• Testing additional adversarial attack methods.
+	• Real-world validation using JetRacer hardware.
