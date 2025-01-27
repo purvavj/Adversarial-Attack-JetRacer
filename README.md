@@ -42,6 +42,6 @@ This repository explores the implementation of adversarial attacks and defenses 
 3. Ensure the KITTI dataset is downloaded and stored in the data/ folder (excluded from the repository).
 
 ## Future Work  
-• Enhancing adversarial defense mechanisms.
-• Testing additional adversarial attack methods.
+• Enhancing adversarial defense mechanisms.  
+• Testing additional adversarial attack methods.  
 • Real-world validation using JetRacer hardware.
