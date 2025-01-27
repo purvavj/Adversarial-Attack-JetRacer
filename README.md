@@ -57,19 +57,6 @@ This repository explores the implementation of adversarial attacks and defenses 
 4. Deploy on JetRacer:
 	Coming soon! Integration steps will follow once the model is robust.
 
-### Project Structure
-
-	.  
-	├── data/                     # KITTI dataset (excluded from repo)  
-	├── models/                   # Saved models and checkpoints  
-	├── src/                      # Core Python scripts  
-	│   ├── train.py              # Training the model  
-	│   ├── adversarial_attack.py # FGSM & PGD implementations  
-	│   ├── test_model.py         # Testing the model  
-	│   └── utils.py              # Helper functions  
-	├── requirements.txt          # Project dependencies  
-	├── README.md                 # This file  
-
 ## Future Work  
 	• Enhancing adversarial defense mechanisms.
 	• Testing additional adversarial attack methods.
