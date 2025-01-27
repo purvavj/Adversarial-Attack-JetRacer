@@ -1,34 +1,34 @@
-#Adversarial-Attack-JetRacer
+# Adversarial-Attack-JetRacer
 
 This repository explores the implementation of adversarial attacks and defenses on a deep learning model trained on the KITTI dataset. The final goal is to integrate these models into a JetRacer platform to test their robustness in real-world autonomous navigation scenarios.
 
-Overview
+## Overview
 
-This project involves:
-	• Training a simple CNN model on the KITTI dataset.
-	• Implementing and testing adversarial attack methods, including FGSM and PGD.
-	• Developing defense mechanisms to improve model robustness.
-	• Preparing for real-world testing by integrating the trained model with JetRacer hardware.
+### This project involves:  
+	• Training a simple CNN model on the KITTI dataset.  
+	• Implementing and testing adversarial attack methods, including FGSM and PGD.  
+	• Developing defense mechanisms to improve model robustness.  
+	• Preparing for real-world testing by integrating the trained model with JetRacer hardware.  
 
-Objectives
-	1. Adversarial Testing: Evaluate the impact of adversarial attacks on model accuracy using the KITTI dataset.
-	2. Defense Mechanisms: Implement and test strategies like adversarial training to improve robustness.
-	3. JetRacer Integration: Deploy the trained model on JetRacer to analyze real-time performance against adversarial perturbations.
+### Objectives
+	1. Adversarial Testing: Evaluate the impact of adversarial attacks on model accuracy using the KITTI dataset.  
+	2. Defense Mechanisms: Implement and test strategies like adversarial training to improve robustness.  
+	3. JetRacer Integration: Deploy the trained model on JetRacer to analyze real-time performance against adversarial perturbations.  
 
-Features
-	• Attack Implementations: FGSM (Fast Gradient Sign Method) and PGD (Projected Gradient Descent) to generate adversarial examples.
-	• Defense Techniques: Includes adversarial training and hyperparameter tuning.
-	• Real-World Applicability: Transition from simulation to deployment on the JetRacer platform.
+### Features
+	• Attack Implementations: FGSM (Fast Gradient Sign Method) and PGD (Projected Gradient Descent) to generate adversarial examples.  
+	• Defense Techniques: Includes adversarial training and hyperparameter tuning.  
+	• Real-World Applicability: Transition from simulation to deployment on the JetRacer platform.  
 
-#Getting Started#
+## Getting Started
 
-Prerequisites
+### Prerequisites
 	• Python 3.8+
 	• NVIDIA Jetson Nano or JetRacer hardware (for deployment)
 	• PyTorch, torchvision
 	• Additional dependencies listed in requirements.txt
 
-Installation
+### Installation
 1. Clone the repository:
 
 		git clone https://github.com/purvavj/Adversarial-Attack-JetRacer.git
@@ -41,11 +41,10 @@ Installation
 
 3. Ensure the KITTI dataset is downloaded and stored in the data/ folder (excluded from the repository).
 
-Usage
+### Usage
 1. Train the Model:
 
 		python train.py
-
 
 2. Generate Adversarial Examples:
 
@@ -58,20 +57,20 @@ Usage
 4. Deploy on JetRacer:
 	Coming soon! Integration steps will follow once the model is robust.
 
-Project Structure
+### Project Structure
 
-.
-├── data/                     # KITTI dataset (excluded from repo)
-├── models/                   # Saved models and checkpoints
-├── src/                      # Core Python scripts
-│   ├── train.py              # Training the model
-│   ├── adversarial_attack.py # FGSM & PGD implementations
-│   ├── test_model.py         # Testing the model
-│   └── utils.py              # Helper functions
-├── requirements.txt          # Project dependencies
-├── README.md                 # This file
+	.  
+	├── data/                     # KITTI dataset (excluded from repo)  
+	├── models/                   # Saved models and checkpoints  
+	├── src/                      # Core Python scripts  
+	│   ├── train.py              # Training the model  
+	│   ├── adversarial_attack.py # FGSM & PGD implementations  
+	│   ├── test_model.py         # Testing the model  
+	│   └── utils.py              # Helper functions  
+	├── requirements.txt          # Project dependencies  
+	├── README.md                 # This file  
 
-Future Work
+## Future Work  
 	• Enhancing adversarial defense mechanisms.
 	• Testing additional adversarial attack methods.
 	• Real-world validation using JetRacer hardware.
