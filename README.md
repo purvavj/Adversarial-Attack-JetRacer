@@ -5,20 +5,20 @@ This repository explores the implementation of adversarial attacks and defenses 
 ## Overview
 
 ### This project involves:  
-	• Training a simple CNN model on the KITTI dataset.  
-	• Implementing and testing adversarial attack methods, including FGSM and PGD.  
-	• Developing defense mechanisms to improve model robustness.  
-	• Preparing for real-world testing by integrating the trained model with JetRacer hardware.  
+1. Training a simple CNN model on the KITTI dataset.
+2. Implementing and testing adversarial attack methods, including FGSM and PGD.
+3. Developing defense mechanisms to improve model robustness.
+4. Preparing for real-world testing by integrating the trained model with JetRacer hardware.  
 
 ### Objectives
-	1. Adversarial Testing: Evaluate the impact of adversarial attacks on model accuracy using the KITTI dataset.  
-	2. Defense Mechanisms: Implement and test strategies like adversarial training to improve robustness.  
-	3. JetRacer Integration: Deploy the trained model on JetRacer to analyze real-time performance against adversarial perturbations.  
+1. Adversarial Testing: Evaluate the impact of adversarial attacks on model accuracy using the KITTI dataset.  
+2. Defense Mechanisms: Implement and test strategies like adversarial training to improve robustness.  
+3. JetRacer Integration: Deploy the trained model on JetRacer to analyze real-time performance against adversarial perturbations.  
 
 ### Features
-	• Attack Implementations: FGSM (Fast Gradient Sign Method) and PGD (Projected Gradient Descent) to generate adversarial examples.  
-	• Defense Techniques: Includes adversarial training and hyperparameter tuning.  
-	• Real-World Applicability: Transition from simulation to deployment on the JetRacer platform.  
+1. Attack Implementations: FGSM (Fast Gradient Sign Method) and PGD (Projected Gradient Descent) to generate adversarial examples.
+2. Defense Techniques: Includes adversarial training and hyperparameter tuning.
+3. Real-World Applicability: Transition from simulation to deployment on the JetRacer platform.  
 
 ## Getting Started
 
